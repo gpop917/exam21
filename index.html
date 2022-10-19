@@ -34,17 +34,22 @@
         /* 나1 */
         .mebox {width: 23%; height: 50px; }
         .mebox > img {margin-top: -217px; margin-left:323px; width: 100%; }
+        /* 원1교시박스 */
+        .onecenterbox {width: 100%; height: 6px; margin-top: -33px;}
+        .text-1onebox {width: 213px; height: 53px; background-color: #000; border-radius: 30px; margin-left: 624px; }
+        .text-1onebox > P {color: #bfbfbf; font-size: 31px; margin: 0 auto; width: 109px; line-height: 55px; font-family: monospace;}
         /* 1칠판 */
-        .class1box {width: 100%; height: 45%; margin-top: 199px;}
-        .class1centerbox {width: 51%; height: 597px; margin: 0 auto;}
-        .class1-blackbordbox {width: 1450px; height: 800px; background: url(./img/class1box2.png); margin-top: 20px;}
-        .class1-btnbox {width: 80px; height: 250px; float: left; margin-left: 833px; margin-top: 390px;}
+        .class1box {width: 100%; height: 26%; margin-top: 250px;}
+        .class1centerbox {width: 52%; height: 566px; margin: 0 auto;}
+        .class1-blackbordbox {width: 98%; height: 675px; background-color: #fff; border: 15px solid #ff5ace; margin-top: 20px;}
+        .class1-textbox {width: 73%; height: 100%; margin: 0 auto; background: url(./img/class1box3.png) no-repeat; }
+        .class1-btnbox { height: 250px; float: left; margin-left: 615px; margin-top: 335px;}
         .go-btn { width: 60px; height: 60px; background-color: #ff5ace; border-radius: 50px; text-align: center; padding-top: 8px; margin-bottom: 30px;}
         .go-btn:hover {background-color: #fff; border: 1px solid #ff5ace;  border-radius: 30px;}
         .go-btn > a { color: #fff; font-size: 30px; text-align: center; }
         .go-btn > a:hover {color: #ff5ace;}
         /* phone2 */
-        .class1-blackbordbox > img {width: 470px; float: right; margin-top: 275px; margin-right: 30px;}
+        .phone2 {width: 17%; float: right; margin-right: 684px; margin-top: -65px; }
         /* left2cake */
         .cakebox2 {width: 16%; height: 240px; margin-left: 228px; background: url(./img/2cake2.png) no-repeat;}
  
@@ -58,7 +63,7 @@
         .class2-btnbox > .go-btn:hover {background-color: #fff; border: 1px solid #b75efc;  border-radius: 30px;}
         .class2-btnbox > .go-btn > a { color: #fff; font-size: 30px; text-align: center; }
         .class2-btnbox > .go-btn > a:hover {color: #b75efc;}
-        .class2box > img.me2 {width: 650px; margin-right: 283px; margin-top: -480px; float: right;}
+        .class2box > img.me2 {width: 650px; margin-right: 290px; margin-top: -410px; float: right;}
         .class2box > img.page3-phone {margin-top: -265px; width: 19%; margin-left: 220px;}
 
         #page3 {width: 100vw; height: 1200px; background: url(./img/3page-background.png);}
@@ -168,26 +173,37 @@
         <div class="mebox">
             <img src="./img/me1.png" alt="me1">
         </div>
+
         <div class="class1box">
+        
             <div class="class1centerbox">
                 <div class="class1-blackbordbox">
-                    <!-- go버튼 박스 -->
-                    <div class="class1-btnbox">
-                        <div class="go-btn">
-                            <a href="#"><strong>GO</strong></a>
-                        </div>
-                        <div class="go-btn">
-                            <a href="#"><strong>GO</strong></a>
-                        </div>
-                        <div class="go-btn">
-                            <a href="#"><strong>GO</strong></a>
+                    <div class="onecenterbox">
+                        <div class="text-1onebox">
+                            <p>제1교시</p>
                         </div>
                     </div>
-                    <img src="./img/2page-phone.png" alt="phone2">
+        
+                    <div class="class1-textbox">
+                        <!-- go버튼 박스 -->
+                        <div class="class1-btnbox">
+                            <div class="go-btn">
+                                <a href="#"><strong>GO</strong></a>
+                            </div>
+                            <div class="go-btn">
+                                <a href="#"><strong>GO</strong></a>
+                            </div>
+                            <div class="go-btn">
+                                <a href="#"><strong>GO</strong></a>
+                            </div>
+                        </div>
+        
+                    </div>
                 </div>
             </div>
             <div class="cakebox2"></div>
         </div>
+        <img src="./img/2page-phone.png" alt="phone2" class="phone2">
     </div>
     <div id="page2">
         <div class="class2box">
